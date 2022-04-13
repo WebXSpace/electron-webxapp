@@ -1,0 +1,15 @@
+{
+	"compilerOptions": {
+		"target": "es2021",
+		"module": "esnext",
+		"strict": true,
+		"esModuleInterop": true,
+		"outDir": "dist",
+		"resolveJsonModule": true,
+		"moduleResolution": "node",
+		"rootDirs": ["src"],
+		"declaration": true
+	},
+	"include": ["src/**/*"],
+	"exclude": ["node_modules", "test/**/*.ts"]
+}
