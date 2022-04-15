@@ -1,7 +1,7 @@
 import { ChildProcess } from 'child_process';
 import EventEmitter from 'events';
-import { ServiceChannel } from './channel';
-import { getLogger, Logger } from '../logger';
+import { ServiceChannel } from '@electron-webxapp/utils';
+import { getLogger, Logger } from '@electron-webxapp/utils';
 
 export class Service extends EventEmitter {
 	public readonly channel: ServiceChannel;

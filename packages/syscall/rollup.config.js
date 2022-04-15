@@ -11,6 +11,7 @@ export default [
 			format: 'cjs',
 		},
 		plugins: [builtins(), typescript(), styles()],
+		external: ['electron'],
 	},
 	{
 		input: 'src/index.ts',
@@ -19,5 +20,6 @@ export default [
 			format: 'es',
 		},
 		plugins: [builtins(), typescript(), styles()],
+		external: ['electron'],
 	},
 ];

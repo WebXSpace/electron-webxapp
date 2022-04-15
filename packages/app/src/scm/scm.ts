@@ -8,9 +8,9 @@ import { Params, ServiceBuilder, ServiceConfig } from './types';
 
 import { Service } from './service';
 
-import { getLogger } from '../logger';
+import { getLogger } from '@electron-webxapp/utils';
 
-import { Storage } from '../storage';
+import { Storage } from '@electron-webxapp/utils';
 
 import { SCMEntity } from './entity';
 

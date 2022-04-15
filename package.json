@@ -3,6 +3,7 @@
   "workspaces": {
     "packages": [
       "packages/syscall",
+      "packages/utils",
       "packages/app"
     ],
     "nohoist": []

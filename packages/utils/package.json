@@ -1,5 +1,5 @@
 {
-	"name": "@electron-webxapp/app",
+	"name": "@electron-webxapp/utils",
 	"version": "0.0.1",
 	"main": "./dist/index.js",
 	"types": "./dist/index.d.ts",
@@ -18,8 +18,6 @@
 		"typescript": "^4.5.5"
 	},
 	"dependencies": {
-		"@electron-webxapp/syscall": "^0.0.1",
-		"@electron-webxapp/utils": "^0.0.1",
 		"typeorm": "^0.2.41",
 		"winston": "^3.7.2"
 	}

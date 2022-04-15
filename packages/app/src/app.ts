@@ -1,6 +1,6 @@
 import { app, BrowserWindow, ipcMain, Menu, Tray } from 'electron';
 import { SCM } from './scm';
-import { getLogger } from './logger';
+import { getLogger } from '@electron-webxapp/utils';
 
 export type ENV_KEYS = 'ROOT_DIR' | 'MAIN_DEV_URL' | 'MAIN_PROD_URL' | 'MOD' | 'OPEN_DEV_TOOLS';
 
