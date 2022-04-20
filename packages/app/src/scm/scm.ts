@@ -18,6 +18,8 @@ export interface SCM_ENV {
 	[name: string]: any | undefined;
 }
 
+const mode = app.isPackaged || 'development';
+
 /**
  * Service controll manager
  */
@@ -118,6 +120,9 @@ export class SCM extends Storage {
 		const childProcess = fork(scriptPath, args, {
 			env: {
 				LOG_DIR: app.getPath('logs'),
+				MODE: `${mode}`,
+				USER_DATA_PATH: app.getPath('userData'),
+				APP_DATA_PATH: app.getPath('appData'),
 			},
 		});
 
