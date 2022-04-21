@@ -133,6 +133,8 @@ export class SCM extends Storage {
 				this._services.delete(name);
 			}
 
+			this._logger.error(`service ${name} error :${code}`);
+
 			// this.emit('exit', name, code);
 		});
 
