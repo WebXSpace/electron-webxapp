@@ -24,7 +24,7 @@ export class Storage extends EventEmitter {
 	) {
 		super();
 
-		let path = `${rootDir}/service`;
+		let path = `${rootDir}`;
 
 		if (!existsSync(path)) {
 			mkdirSync(path, { recursive: true });
